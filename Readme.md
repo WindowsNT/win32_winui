@@ -13,3 +13,8 @@ This repository contains a simple Win32 Project ("Win32Project" folder) and a "C
 
 This creates a WinUI3 projects from an existing project.
 
+# Article
+
+https://www.codeproject.com/Articles/5376106/Convert-a-Win32-project-to-WinUI3-automatically
+Read the internals here.
+

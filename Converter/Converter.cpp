@@ -304,7 +304,7 @@ namespace winrt::%s::implementation
 
 	const char* r3 = R"(#include "pch.h"
 #include "App.xaml.h"
-#include "MainWindow.xaml.h"
+//#include "MainWindow.xaml.h"
 
 using namespace winrt;
 using namespace Microsoft::UI::Xaml;
@@ -334,8 +334,8 @@ namespace winrt::%s::implementation
     /// <param name="e">Details about the launch request and process.</param>
     void App::OnLaunched([[maybe_unused]] LaunchActivatedEventArgs const& e)
     {
-        window = make<MainWindow>();
-        window.Activate();
+        // window = make<MainWindow>();
+        // window.Activate();
     }
 }
 )";
