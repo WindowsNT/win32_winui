@@ -96,11 +96,11 @@ bool ChangePchH(const wchar_t* vcxproj)
 //CppWinRT 
 const char* p1v = "2.0.240111.5";
 // WIL
-const char* p2v = "1.0.231216.1";
+const char* p2v = "1.0.240122.1";
 // SDK Build Tools
-const char* p3v = "10.0.22621.2428";
+const char* p3v = "10.0.22621.3233";
 // AppSdk
-const char* p4v = "1.4.231219000";
+const char* p4v = "1.5.240227000";
 
 bool ChangePackages(const wchar_t* vcxproj)
 {
@@ -304,6 +304,8 @@ namespace winrt::%s::implementation
 
 	const char* r3 = R"(#include "pch.h"
 #include "App.xaml.h"
+#include "module.g.cpp"
+
 //#include "MainWindow.xaml.h"
 
 using namespace winrt;
